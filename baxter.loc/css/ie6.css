@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+#wrapper{
+font-family: Arial,sans-serif !important;	/*Прописываем шрифты для IE6*/
+}
+
+#slogan h1,#bcontent p.strong,#blog h4{   /*Прописываем тольшину шрифта для элиментов IE6*/
+font-weight:bold;	
+}
+
+#bbottom{
+	
+	bottom:-17px !important;
+}

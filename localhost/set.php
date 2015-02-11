@@ -3,15 +3,21 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset =utf-8"/>
 <title>Страница сайта</title>
-<link href="css/style.css" rel="stylesheet" type="text/css"/>
 </head>
+
+
 <body>
 <?php
-$t=1500;
-$r=55;
-echo ($f * $g);
+
+echo $_GET["a"];
+echo "<br/>";
+echo $_GET["b"];"<br/>";
+ $_GET["c"] = $_GET["a"] + $_GET["b"];"<br/>";
+ echo "<br/>";
+ echo $_GET["c"];
+
 
 ?>
+
 </body>
 </html>
-

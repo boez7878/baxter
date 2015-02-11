@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset =utf-8"/>
+<title>Страница сайта</title>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<script type="text/javascript">
+var mySite = "http://ruseller.com";
+
+function got(myString){
+      if(myString.indexOf("http://")==-1){
+        document.write("Не встречается http://");
+      }
+      else{
+        document.write("Встречается http://");
+      }
+      }
+got(mySite);
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset =utf-8"/>
+<title>Страница сайта</title>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<script type="text/javascript">
+
+ function letterCount(myString){
+      if(myString.length < 10){
+        var result = "В введеном слове менее 10 букв ";
+        
+      }
+      else if(myString.length > 10){
+        var result = "B введеном слове более 10 букв ";
+      }
+      else{
+        var result = "В введенном слове ровно 10 букв ";        
+      }
+      return result;
+}
+
+      var userWord = prompt("Введите любое слово:");
+      document.write(letterCount(userWord));
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,97 @@
+@import url(reset.css);
+#wrapper{
+	width:100%;
+	height:1585px;
+	outline:1px solid #cc0000;	
+
+}
+
+#header{
+	height:177px;
+	outline:1px solid #000000;
+	background-color:#e8e8e8;
+	
+}
+
+#slider{
+	height:303px;
+	outline:1px solid #000000;
+	background-color:#1d4772;	
+}
+
+#content{
+    height:668px;
+	outline:1px solid #000000;
+	background-color:#e8e8e8;
+}
+
+#footer{
+    height:437px;
+	outline:1px solid #000000;
+	background-color:#1d4772;	
+			
+}
+
+#iHeader,#iSlider,#iContent,#iFooter{
+	width:900px;
+	margin:0 auto;
+}
+
+#iHeader{
+	height:177px;
+	outline:1px solid #cc0000;
+	position:relative;
+}
+
+#iSlider{
+	height:303px;
+	outline:1px solid #008000;
+}
+
+#iContent{
+   height:668px;
+   outline:1px solid #004080;	
+}
+
+#iFooter{
+   height:437px;
+   outline:1px solid #FF8040; 	
+}
+
+#menu{
+position:absolute;
+width:900px;
+height:46px;
+outline:0px solid #004080;
+bottom:-8px;
+left:0;
+background-image:url(../images/menuBG.png);
+background-repeat:no-repeat;	
+}
+
+#menu li{
+float:left;
+outline:0px solid #cc0000;
+height:46px;
+background-image:url(../images/menudel.png);
+background-repeat:no-repeat;	
+}
+#menu li a{
+text-decoration:none;
+font: bold 12px Arial, sans-serif;
+color:#79a100;	
+text-transform:uppercase;
+outline:0px solid #008000;
+display:block;
+height:29px;
+padding:17px 18px 0 18px;
+}
+
+#menu li.home{
+	background:none;
+}
+
+#menu li.us{
+    padding-right:0;	
+}
+

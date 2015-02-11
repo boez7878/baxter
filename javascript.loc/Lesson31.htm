@@ -6,12 +6,17 @@
 <link href="css/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<?php
-$t=1500;
-$r=55;
-echo ($f * $g);
+<script type="text/javascript">
+var tel = "8/927/31/10/765";
+var sign = "-";
+ function rot(tel,sign){
+ var regV=/\//g; 
+ var result = tel.replace(regV,sign);
+ document.write(result);  
+ }
+ rot(tel,sign);
+</script>
 
-?>
 </body>
 </html>
 

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Заполнение форм</title>
+<link href="css/style_form.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+<form action="formdata.php" method ="POST" name="form1">
+<fieldset>
+<legend class="vopros">Ввод личных данных</legend>
+<p class="vopros">Введите ваше имя:</p> 
+<input class="input" type="text" name="name" size = "30" maxlength="10">
+<p class="vopros">Введите пароль:</p>
+<input class="input" type="password" name="password" size = "30" maxlength="10">
+</fieldset>
+
+<fieldset>
+<legend class="vopros">Любите ли вы экономить время:</legend>
+<p><label>Да<input type="radio" name="time" value="yes" checked></label></p>
+<p><label>Нет<input type="radio" name="time" value="no"></label></p>
+<p class="vopros">Что вы любите кушать?</p>
+<input type="checkbox" name="mac"> Макароны
+<input type="checkbox" name="ris"> Рис
+</fieldset>
+<fieldset>
+<legend class="vopros">Сколько часов вы спите?</legend>
+<p>
+<select name="sleep" size="3">
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>8+</option>
+</select> 
+</p>
+</fieldset>
+
+<p class="vopros">Напишите сообщение:</p>
+<textarea name="text" cols="30" rows="6"></textarea><br/>
+<p><input type="reset"  name="reset" value="Очистить"><input type="submit" name="submit" value="Отправить"></p>
+<input type="image" src="images/ibutton.png" name="imagebutton"></br>
+<input type="button" value = "Отправить" name="button">
+</form>
+</div>
+
+</body>
+</html>

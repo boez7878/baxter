@@ -1,0 +1,25 @@
+body
+{
+background-color:#D2D2D2;
+font: 11px Verdana;
+color:#696969;
+}
+#wrapper
+{
+width:650px;
+margin: 30px auto;
+background-color:#F4F4F4;	
+}
+
+#header
+{
+height: 75px;
+background-image:url(../images/redHeader.png)
+}
+
+#content
+{
+padding: 20px 30px;
+}
+
+

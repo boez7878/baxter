@@ -1,190 +1,190 @@
 @import url(reset.css);
 
 body{
-background-color:#e5e5e5;
-background-image:url(../images/bodyBG.jpg);
-background-repeat:repeat-x;
-position:relative;	
+    background-color:#e5e5e5;
+    background-image:url(../images/bodyBG.jpg);
+    background-repeat:repeat-x;
+    position:relative;	
 }
 
 body h5{
-background-color:#e5e5e5;
-background-image:url(../images/bodyBG.jpg);
-background-repeat:repeat-x;	
-font:13px Arial,sans-serif;
-outline:0px solid #000000;
-position:absolute;
-top:1377px;
-left:700px;
+    background-color:#e5e5e5;
+    background-image:url(../images/bodyBG.jpg);
+    background-repeat:repeat-x;	
+    font:13px Arial,sans-serif;
+    outline:0px solid #000000;
+    position:absolute;
+    top:1377px;
+    left:700px;
 }
 
 #wrapper{
-	width: 920px;
-	height: 1440px;
-	outline: 0px solid #cc0000;
-	margin: 0 auto;
-	position: relative;
-	
+    width: 920px;
+    height: 1440px;
+    outline: 0px solid #cc0000;
+    margin: 0 auto;
+    position: relative;
+
 }
 
 #logo{
-display:block;
-width:360px;
-height:104px;
-outline:0px solid #004080;
-background-image:url(../images/logo.png);
-background-repeat:no-repeat;
-background-position:2px 22px;	
+    display:block;
+    width:360px;
+    height:104px;
+    outline:0px solid #004080;
+    background-image:url(../images/logo.png);
+    background-repeat:no-repeat;
+    background-position:2px 22px;	
 }
 
 #nav/* создаем меню-навигация по сайту*/
 {
-	width: 920px;
-	height: 55px;
-	outline:0px solid #cc0000;
+    width: 920px;
+    height: 55px;
+    outline:0px solid #cc0000;
 }
 
 #nav li
 {
-	float:left;
-	outline:0px solid #cc0000; 
-	height:55px;
-	width:184px;
-	text-align:center;
+    float:left;
+    outline:0px solid #cc0000; 
+    height:55px;
+    width:184px;
+    text-align:center;
 }
 
 #nav li a/*шрифт меню*/
 {
-	text-decoration:none;
-	font: 17px Arial, sans-serif;
-	color:#000000;
-	display:block;
-	height:40px;
-	padding-top:15px;
-	background-image:url(../images/secondnav.png);
-	background-repeat:no-repeat;
-	background-position:0 -55px;
+    text-decoration:none;
+    font: 17px Arial, sans-serif;
+    color:#000000;
+    display:block;
+    height:40px;
+    padding-top:15px;
+    background-image:url(../images/secondnav.png);
+    background-repeat:no-repeat;
+    background-position:0 -55px;
 }
 
 #nav li a.ferst{
-background-image:url(../images/ferstnav.png);	
+    background-image:url(../images/ferstnav.png);	
 }
 
 #nav li a.last{
-background-image:url(../images/lastnav.png);	
+    background-image:url(../images/lastnav.png);	
 }
 
 #nav li a:hover{
-	background-position:0 0;
-	color:#ffffff;
+    background-position:0 0;
+    color:#ffffff;
 }
 
 #darts{
-height:428px;
-background-image:url(../images/darts.png);
-background-repeat:no-repeat;
-background-position:0 24px;	
-position:relative;
+    height:428px;
+    background-image:url(../images/darts.png);
+    background-repeat:no-repeat;
+    background-position:0 24px;	
+    position:relative;
 }
 
 #slogan{
-width:383px;
-height:201px;	
-outline:0px solid #008000;
-position:absolute;
-top:121px;
-right:25px;
+    width:383px;
+    height:201px;	
+    outline:0px solid #008000;
+    position:absolute;
+    top:121px;
+    right:25px;
 }
 
 
 #slogan h1{
-	font: bold 50px Arial,sans-serif;
-	color:#000000;
-	text-align:center;
-	text-indent:-22px;
+    font: bold 50px Arial,sans-serif;
+    color:#000000;
+    text-align:center;
+    text-indent:-22px;
 }
 
 #slogan h1 span{
-	font: bold 30px Arial,sans-serif;
-	color:#000000;
+    font: bold 30px Arial,sans-serif;
+    color:#000000;
 }
 
 #slogan a{
-	width:166px;
-	height:35px;
-	display:block;
-	outline:0px solid #cc0000;
-	margin:36px 0 0 82px;
-	background-image:url(../images/readBg.png);
-	background-repeat:no-repeat;
-	font: bold 26px Arial,sans-serif;
-	color:#ffffff;
-	text-decoration:none;
-	padding:9px 22px;
+    width:166px;
+    height:35px;
+    display:block;
+    outline:0px solid #cc0000;
+    margin:36px 0 0 82px;
+    background-image:url(../images/readBg.png);
+    background-repeat:no-repeat;
+    font: bold 26px Arial,sans-serif;
+    color:#ffffff;
+    text-decoration:none;
+    padding:9px 22px;
 }
 
 /*Начало блока фото*/
 
 #blockfoto{
-   height:280px;
-   outline:0px solid #cc0000;
-   background-color:#ffffff;
-  
-   	
+    height:280px;
+    outline:0px solid #cc0000;
+    background-color:#ffffff;
+
+
 }
 
 #history,#vozm,#work,#contact{
-width:210px;
-height:245px;
-float:left;	
-outline:0px solid #008000;
+    width:210px;
+    height:245px;
+    float:left;	
+    outline:0px solid #008000;
 }
 
 #history{
-	background-image:url(../images/imghistory.png);
-	background-repeat:no-repeat;
-	margin:20px 13px 17px 20px;
+    background-image:url(../images/imghistory.png);
+    background-repeat:no-repeat;
+    margin:20px 13px 17px 20px;
 }
 
 #vozm{
-	background-image:url(../images/imgvozm.png);
-	background-repeat:no-repeat;
-	margin: 20px 12px 17px 0;
+    background-image:url(../images/imgvozm.png);
+    background-repeat:no-repeat;
+    margin: 20px 12px 17px 0;
 }
 
 #work{
-	background-image:url(../images/imgwork.png);
-	background-repeat:no-repeat;
-	margin:20px 13px 17px 0;
+    background-image:url(../images/imgwork.png);
+    background-repeat:no-repeat;
+    margin:20px 13px 17px 0;
 }
 
 #contact{
-	background-image:url(../images/imgcontact.png);
-	background-repeat:no-repeat;
-	margin:20px 0 17px 0;
+    background-image:url(../images/imgcontact.png);
+    background-repeat:no-repeat;
+    margin:20px 0 17px 0;
 }
 
 #history h2,#vozm h2,#work h2,#contact h2{
-	padding:160px 0 3px 15px;	
-	font: bold 13px Arial,serif;
-	color:#318ea2;
+    padding:160px 0 3px 15px;	
+    font: bold 13px Arial,serif;
+    color:#318ea2;
 }
 
 #history p,#vozm p,#work p,#contact p{
-	padding-left: 15px;	
-	font: 13px Arial,serif;
-	color:#323232;
+    padding-left: 15px;	
+    font: 13px Arial,serif;
+    color:#323232;
 }
 
 #history a,#vozm a,#work a,#contact a{
-	background-image:url(../images/s1.png);
-	background-repeat:no-repeat;
-	cursor:pointer;
-	width:17px;
-	height:17px;
-	margin: 16px 0 12px 15px;
-	float:left;
-	outline:0px solid #cc0000;
+    background-image:url(../images/s1.png);
+    background-repeat:no-repeat;
+    cursor:pointer;
+    width:17px;
+    height:17px;
+    margin: 16px 0 12px 15px;
+    float:left;
+    outline:0px solid #cc0000;
 }
 
 /*Конец блока фото*/
@@ -192,132 +192,132 @@ outline:0px solid #008000;
 /*Начало блока контент*/
 
 #contents{
-	height:470px;
-	outline:0px solid #004080;
-	background-color:#f5f5f5;
-	
+    height:470px;
+    outline:0px solid #004080;
+    background-color:#f5f5f5;
+
 }
 
 #biznes{
-	height:397px;
-	width:507px;
-	outline:0px solid #004080;
-	float:left;
-	padding-top:30px;
-	margin-left:40px;
+    height:397px;
+    width:507px;
+    outline:0px solid #004080;
+    float:left;
+    padding-top:30px;
+    margin-left:40px;
 }
 
 #proect{
-	height:397px;
-	width:309px;
-	outline:0px solid #004080;
+    height:397px;
+    width:309px;
+    outline:0px solid #004080;
     float:right;
-	padding-top:30px;
-	margin-right:40px;
+    padding-top:30px;
+    margin-right:40px;
 
 }
 
 #biznes h3,#proect h3{
-	font:31px Arial,sans-serif;
-	color:#000000;
-	padding-bottom:25px;	
+    font:31px Arial,sans-serif;
+    color:#000000;
+    padding-bottom:25px;	
 }
 #biznes p.a1{
-   font: bold 13px Arial,sans-serif;
-	color:#323232;	
+    font: bold 13px Arial,sans-serif;
+    color:#323232;	
 }
 #biznes .img1{
-	width:117px;
-	height:108px;
-	background-image:url(../images/imgdarts2.png);
-	background-repeat:no-repeat;
-	float:left;
-	margin:10px 15px 45px 0;
+    width:117px;
+    height:108px;
+    background-image:url(../images/imgdarts2.png);
+    background-repeat:no-repeat;
+    float:left;
+    margin:10px 15px 45px 0;
 }
 
 #biznes p{
-   font:  13px Arial,sans-serif;
-	color:#323232;
-	padding:10px 0 10px 0;	
+    font:  13px Arial,sans-serif;
+    color:#323232;
+    padding:10px 0 10px 0;	
 }
 
 #href1{
     font:13px Arial,sans-serif;
-	color:#308da2;
-	float:left;	
-	margin-top:1px;
-	outline:0px solid #008000;
-	border-right: 1px solid #dadada;
-	padding-right:75px;
-	
+    color:#308da2;
+    float:left;	
+    margin-top:1px;
+    outline:0px solid #008000;
+    border-right: 1px solid #dadada;
+    padding-right:75px;
+
 }
 
 
 #href2{
     font:13px Arial,sans-serif;
-	color:#308da2;
-	margin-left:300px;
-	margin-top:16px;
-	outline:0px solid #008000;
-	
-		
+    color:#308da2;
+    margin-left:300px;
+    margin-top:16px;
+    outline:0px solid #008000;
+
+
 }
 
 #href1 li,#href2 li{
-	background-image:url(../images/s6.png);
-	background-repeat:no-repeat;
-	background-position: 0 4px;
-	padding-left:22px;
-	padding-bottom:6px;
+    background-image:url(../images/s6.png);
+    background-repeat:no-repeat;
+    background-position: 0 4px;
+    padding-left:22px;
+    padding-bottom:6px;
 }
 
 #postimg1{
-	width:102px;
-	height:70px;
-	float:left;
-	background-image:url(../images/imgpost1.png);
-	margin-right:10px;
-	margin-top: 7px;
+    width:102px;
+    height:70px;
+    float:left;
+    background-image:url(../images/imgpost1.png);
+    margin-right:10px;
+    margin-top: 7px;
 }
 
 #postimg2{
-	width:102px;
-	height:70px;
-	float:left;
-	background-image:url(../images/imgpost2.png);
-	margin-right:10px;
-	margin-top: 7px;
+    width:102px;
+    height:70px;
+    float:left;
+    background-image:url(../images/imgpost2.png);
+    margin-right:10px;
+    margin-top: 7px;
 }
 
 #postimg3{
-	width:102px;
-	height:70px;
-	float:left;
-	background-image:url(../images/imgpost3.png);
-	margin-right:10px;
-	margin-top: 7px;
+    width:102px;
+    height:70px;
+    float:left;
+    background-image:url(../images/imgpost3.png);
+    margin-right:10px;
+    margin-top: 7px;
 }
 
 #post1,#post2,#post3 {
-	width:309px;
-	height:87px;
-	outline:0px solid #004080;
-	margin-bottom:38px;
- 	
+    width:309px;
+    height:87px;
+    outline:0px solid #004080;
+    margin-bottom:38px;
+
 }
 
 
 #post1 p,#post2 p,#post3 p{
-	font:13px Arial,sans-serif;
-	color:#323232;
-	padding-top:9px;
+    font:13px Arial,sans-serif;
+    color:#323232;
+    padding-top:9px;
     overflow:hidden;
-	
+
 }
 
 #post1 a,#post2 a,#post3 a{
-	width:17px;
-	height:17px;
+    width:17px;
+    height:17px;
     background-image:url(../images/s2.png);
     background-repeat:no-repeat;
     display:block;

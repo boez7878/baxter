@@ -1,36 +1,36 @@
 @import url(reset.css);
 
 body{
-	background:#f4f4f4;
-	font:12px/1.6 Arial,sans-serif;
-	color:#5d5d5d;	
+    background:#f4f4f4;
+    font:12px/1.6 Arial,sans-serif;
+    color:#5d5d5d;	
 }
 
 #topline{/*Верхняя тонкая линия*/
-	height:16px;
-	background:#282828;
+    height:16px;
+    background:#282828;
 }
 
 #wrapper{ /*Обертка сайта*/
-	width:960px;
-	height:1500px;
-	outline:1px solid #000000;
-	margin:0 auto;
-	
+    width:960px;
+    height:1500px;
+    outline:1px solid #000000;
+    margin:0 auto;
+
 }
 a{/*Ссылки*/
     color:#fe9b00;
-	text-decoration:none;
-	font-weight:bold;
-	text-transform:uppercase;
-    }
+    text-decoration:none;
+    font-weight:bold;
+    text-transform:uppercase;
+}
 
 .activ,a:hover{
-	color:#090909;	
+    color:#090909;	
 }
 
 p{
-  margin: 8px 0;  
+    margin: 8px 0;  
 }
 
 h2{
@@ -45,28 +45,28 @@ h2{
 
 /*Начало блока header*/
 #header{
-	padding:20px 0 16px 0;
-	border-bottom:1px solid #c0c0c0;
-	overflow:hidden;
+    padding:20px 0 16px 0;
+    border-bottom:1px solid #c0c0c0;
+    overflow:hidden;
 }
 
 #logo{
-	width:183px;
-	height:100px;
-	outline:0px solid #4506FA;
-	float:left;
+    width:183px;
+    height:100px;
+    outline:0px solid #4506FA;
+    float:left;
 }
 
 #nav{
-	float:right;
-	margin-top:40px;
-	
+    float:right;
+    margin-top:40px;
+
 }
 
 #nav ul li{
-	outline:0px solid #4506FA;
-	float:left;
-	margin-left:63px;
+    outline:0px solid #4506FA;
+    float:left;
+    margin-left:63px;
 }
 /*Конец блока header*/
 
@@ -182,7 +182,7 @@ h2{
 }
 
 #portfolio-image{
-    
+
     margin-right: 0;
 }
 
